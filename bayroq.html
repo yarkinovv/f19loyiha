@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.navbar{
+    height: auto;
+    /* display: flex; */
+    padding: 10px 135px;
+    box-sizing: border-box;
+    /* border: 2px solid blue; */
+}
+.navbar h1{
+    font-family: pacifico;
+    font-size: 43px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    float: left;
+
+}
+.navbar ul{
+    
+    /* display: flex; */
+    float: right;
+    
+}
+.navbar ul li{
+    list-style: none;
+    float: left;
+    /* padding: 10px 20px; */
+    box-sizing: border-box;
+
+}
+.navbar ul li a{
+    display: block;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 2px;
+    text-align: left;
+    text-decoration: none;
+
+
+}
+.navbar ul li a:hover{
+   background-color: orange;
+   color: indigo;
+
+
+}
+ul li:nth-child(5){
+    border-left: 1px solid gray;
+    font-family: Libre;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <h1>Pompeo</h1>
+        <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">SHOP</a></li>
+            <li><a href="">CONTACT</a></li>
+            <li><a href=""><i class="fa-thin fa-cart-shopping"></i>Cart</a></li>
+        </ul>
+        <div class="clear"></div>
+    </div>
+</body>
+</html>
